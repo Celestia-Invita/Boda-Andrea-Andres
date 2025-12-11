@@ -114,6 +114,7 @@ h1{
 
 h2{
     font-family: 'Dancing Script' ;
+    color: black;
     font-style:normal;
     font-size:35px;
     font-weight:lighter;
@@ -135,10 +136,10 @@ h21{
     text-align: center;
 }
 
-.h{
+.horaUSA{
     float:left;
     position: absolute;
-    left: 15%;
+    left: 5%;
     border-style: groove;
     border-color: #d9b5ad66;
     border-width: 0.06cm;
@@ -148,10 +149,10 @@ h21{
     padding-right: 3%;
 }
 
-.l{
+.horaCOL{
     float:left;
     position: absolute;
-    right: 15%;
+    right: 5%;
     border-style: groove;
     border-color: #d9b5ad66;
     border-width: 0.06cm;
@@ -159,6 +160,17 @@ h21{
     padding: 1%;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.cajitacentr{ 
+    width: 30%;
+    float: left;
+    position: fixed;
+    left: 35%;
+    border-style: groove;
+    border-color: #d9b5ad66;
+    border-width: 0.06cm;
+    background-color: rgb(196, 147, 160);
 }
 
 .p-hyl{
