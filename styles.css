@@ -368,3 +368,14 @@ form button {
 }
 
 
+form button:hover {
+  background-color: #b07a88;
+  transform: scale(1.05);
+}
+
+
+form button:active {
+  transform: scale(0.98);
+}
+
+
