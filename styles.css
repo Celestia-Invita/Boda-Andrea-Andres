@@ -338,3 +338,12 @@ input, textarea {
   margin-bottom: 10px;
   padding: 10px;
 }
+
+
+#mensaje-gracias {
+  display: none;
+  margin-top: 20px;
+  font-family: 'Dancing Script';
+  font-size: 28px;
+  color: #7a3b4a;
+}

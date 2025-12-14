@@ -154,18 +154,18 @@ sabiendo que mientras estemos uno al lado del otro, siempre encontraremos nuestr
   style="display:none;"
 ></iframe>
 
+<p id="mensaje-gracias">
+  Gracias por dejarnos tu mensaje.<br>
+  Será un honor compartir este día contigo.
+</p>
+
+
+
 <script>
   let submitted = false;
 </script>
 </div>
 
-<script>
-document.querySelector("form").addEventListener("submit", () => {
-  setTimeout(() => {
-    alert("¡Gracias por dejar tu mensaje! 💖");
-  }, 500);
-});
-</script>
 
 
 
@@ -178,5 +178,18 @@ document.querySelector("form").addEventListener("submit", () => {
             duration: 2000
         });
       </script>
+
+
+
+
+      <script>
+document.getElementById("form-mensaje").addEventListener("submit", function () {
+  setTimeout(() => {
+    this.style.display = "none";
+    document.getElementById("mensaje-gracias").style.display = "block";
+  }, 500);
+});
+</script>
+
 </body>
 </html>
