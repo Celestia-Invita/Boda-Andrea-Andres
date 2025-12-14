@@ -75,7 +75,8 @@ body{
     height: auto;
     background-color:rgb(196, 147, 160) ;
 
-    margin-bottom: -1cm;
+    margin-bottom: 0cm;
+    padding-bottom: 1cm;
 }
 
 h1{
@@ -323,4 +324,17 @@ h4{
 .im-2{
     grid-row: span 4;
     grid-column: span 2;
+}
+
+
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
 }
